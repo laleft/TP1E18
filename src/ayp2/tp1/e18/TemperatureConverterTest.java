@@ -4,11 +4,11 @@ public class TemperatureConverterTest {
 
 	public static void main(String[] args) {
 		
-		float fahr = 77.50f;
-		float cent = 12.00f;
+		float fahr = 32.0f;
+		float cent = 0.0f;
 	
-		System.out.printf("%.2f grados fahrenheit son %.2f centígrados\n", fahr, TemperatureConverter.fahrToCent(fahr));
-		System.out.printf("%.2f grados centígrados son %.2f fahrenheit\n", cent, TemperatureConverter.centToFahr(cent));
+		System.out.printf("%.1f grados fahrenheit son %.1f centígrados\n", fahr, TemperatureConverter.fahrToCent(fahr));
+		System.out.printf("%.1f grados centígrados son %.1f fahrenheit\n", cent, TemperatureConverter.centToFahr(cent));
 	
 	}
 }
