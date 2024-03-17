@@ -4,12 +4,14 @@ package ayp2.tp1.e18;
  * Clase para convertir unidades fahrenheit a centígrados
  * y centígrados a fahrenheit.
  * 
- * fahrToCent: convierte grados fahrenheit a centígrados
- * Fórmula: (°C - 32) * 5/9
+ * - fahrToCent: convierte grados fahrenheit a centígrados
+ *   Fórmula: (°C - 32) * 5/9
  * 
- * centToFahr: convierte grados centígrados a fahrenheit
- * Fórmula: F° / (5/9) + 32
+ * - centToFahr: convierte grados centígrados a fahrenheit
+ *   Fórmula: F° / (5/9) + 32
  * 
+ * @author sdebernardez
+ * @version 1.1
  */
 
 public class TemperatureConverter {
