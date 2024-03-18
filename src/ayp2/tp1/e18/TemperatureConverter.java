@@ -29,7 +29,7 @@ public class TemperatureConverter {
 	
 	/**
 	 * @param temperature Temperatura en grados centígrados
-	 * @return
+	 * @return Grados fahreinheit
 	 */
 	public static float centToFahr(float temperature) {
 		return temperature / SCALE + FAHR_ZERO;
